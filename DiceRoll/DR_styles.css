@@ -1,0 +1,56 @@
+
+
+
+
+/*control the image*/
+header img {
+	float: none;
+	width: 96%;
+	margin: 2% 2% 0% 2%;
+}
+
+/*Design footer*/
+
+footer {
+	text-align: center;
+	font-size: 0.6em;
+	margin-top: 4%;
+	border-top: 3px solid rgba(108, 122, 137,1.00);
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	clear: both;
+	padding-bottom: 20px;
+}
+
+
+/* =============================================
+	Desktop layout styles used by  devices
+	769px and larger.
+   =============================================
+*/
+
+@media only screen and (min-width: 769px) {
+html, body {
+	font-size: 20px;
+}
+
+html {
+	
+	background-color: rgb(135,206,235);
+	margin: 0px auto;
+}
+body {
+	width: 88.2%;
+	max-width: 900px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: 0px auto auto auto;
+	clear: none;
+	float: none;
+	background-color: white;
+	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+}
+
+
+}
